@@ -1,0 +1,30 @@
+.description_content_container{
+    display: flex;
+    padding: 15px;
+    margin-top: 15px;
+    width: 100%;
+    height: 65%;
+}
+.description_content_container{
+    >textarea{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.exit_modal_submit_btn{
+    width: 100%;
+    display: flex;
+    background-color: $primary-color;
+    height: 45px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.exit_modal_submit_btn{
+    >span{
+        margin: auto;
+        font-size: 25px;
+        color: white;
+    }
+    
+}

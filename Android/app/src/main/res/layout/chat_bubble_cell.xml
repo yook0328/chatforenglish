@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:padding="3dp"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chat_bubble"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:id="@+id/message_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:inputType="textMultiLine|textNoSuggestions"
+            android:text="aaaaaa"
+            android:textColorHighlight="@android:color/transparent"
+            />
+
+        <ImageView
+            android:id="@+id/icon_bottom_arrow_imageview"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_below="@+id/message_textview"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/icon_bottom_arrow" />
+
+        <TextView
+            android:id="@+id/message_edit_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/icon_bottom_arrow_imageview"
+            android:layout_centerHorizontal="true"
+            android:inputType="textMultiLine|textNoSuggestions"
+            android:text="bbbbbb"
+            android:textColorHighlight="@android:color/transparent"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

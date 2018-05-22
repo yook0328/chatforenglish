@@ -1,0 +1,142 @@
+.login_register_main_container{
+    width: 100%;
+    height: 100%;
+    background-color: #0277BD;
+    padding-top: 50%;
+    flex-direction: column;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+.loading_spinner_container{
+    position: fixed;
+    width:100%;
+    height: 100%;
+    top:0px;
+    left:0px;
+    background-color: #3D3D3D;
+    opacity: 0.5;
+}
+.loading_spinner{
+    position: fixed;
+    width: $spinner-size;
+    height: $spinner-size;
+    left: $screen-width/2 - $spinner-size/2;
+    bottom: $screen-height/2 - $spinner-size/2;
+    -webkit-animation: rotate 1.5s linear infinite;
+    animation: rotate 1.5s linear infinite;
+
+}
+@keyframes rotate{
+    0%{transform:rotate(360deg)};
+    100%{transform:rotate(0deg)};    
+}
+.login_register_nav_container{
+    
+    height: 50px;
+    line-height: 50px;
+    background-color: white;
+
+    border-radius: 8px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    overflow: hidden;
+    position: static;
+    margin-bottom: 12px;
+}
+
+.login_nav{
+
+    width: 48%;
+    height: inherit;
+    display: inline-block;
+    vertical-align: middle;   
+    text-align: center;
+    background-color: #0277BD; 
+    color: #ffffff;
+}
+.reg_nav{
+    width: 48%;
+    height: inherit;
+    display: inline-block;
+    vertical-align: middle;   
+    text-align: center;
+    color: #0277BD;
+}
+
+.login_register_form_container{
+    
+    margin-bottom: 12px;
+    flex-direction: column;
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.login_form_control_email{
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 15px;
+    border : transparent;
+    color: #c9c9c9;
+    font-size: 30px;
+    border-bottom: 1px solid #c9c9c9;
+}
+.login_form_control_password{
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 15px;
+    border : transparent;
+    color: #c9c9c9;
+    font-size: 30px;
+}
+.login_form_control_username{
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 15px;
+    border : transparent;
+    color: #c9c9c9;
+    font-size: 30px;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+.login_form_control_username:focus{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #c9c9c9;
+}
+.login_form_control_email:focus{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #c9c9c9;
+}
+.login_form_control_password:focus{
+    outline: none;
+    border: none;
+    
+}
+.login_form_control_email::-webkit-input-placeholder{
+    color: #c9c9c9;
+}
+.login_form_control_username::-webkit-input-placeholder{
+    color: #c9c9c9;
+}
+.login_form_control_password::-webkit-input-placeholder{
+    color: #c9c9c9;
+}
+
+.submit_btn_container{
+    
+}
+
+.submit_btn{
+    width: 100%;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    font-size: 30px;
+    border-radius: 4px;
+    background: #0288D1;
+    border: none;
+    color: white;
+}

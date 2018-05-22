@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "940911766248",
+    "firebase_url": "https://chat-for-english.firebaseio.com",
+    "project_id": "chat-for-english",
+    "storage_bucket": "chat-for-english.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940911766248:android:ad56412214d492b7",
+        "android_client_info": {
+          "package_name": "com.aram.chatproto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940911766248-nd85kkjvh35ifhd99g8tegl4m5lfdocp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aram.chatproto",
+            "certificate_hash": "1881dd2d93bd978982f6248875e1ef8ebdc5509e"
+          }
+        },
+        {
+          "client_id": "940911766248-bbrpincr06o9bdlokab0raf33mfuj8h0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeeR5O6ih2g37GXUGBGoVJySMCO-pi9-8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "940911766248-mr9fnqgaia23atvdmbodm6fn1o9gvsk8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.aram.ChatForEnglish"
+              }
+            },
+            {
+              "client_id": "940911766248-bbrpincr06o9bdlokab0raf33mfuj8h0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

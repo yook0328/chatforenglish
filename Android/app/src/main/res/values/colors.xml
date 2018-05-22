@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="entry_hint_color">#D7D7D7</color>
+    <color name="colorPrimaryLight">#0288D1</color>
+    <color name="tab_icon_selected">#FFFFFF</color>
+    <color name="tab_icon_color">#878787</color>
+    <color name="my_chat_bubble">#FFF176</color>
+    <color name="other_chat_bubble">#FFFFFF</color>
+    <color name="edit_chat_bubble">#D4E157</color>
+</resources>

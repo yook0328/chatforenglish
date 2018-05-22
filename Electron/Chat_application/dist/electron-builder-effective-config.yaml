@@ -1,0 +1,6 @@
+directories:
+  output: dist
+  buildResources: build
+productName: ChatForEnglish
+appId: com.proto.ChatForEnglish
+electronVersion: 1.7.10
